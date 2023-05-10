@@ -1,0 +1,36 @@
+{
+  "name": "lokl_back_v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/william-lokl/lokl_backend_v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/william-lokl/lokl_backend_v2/issues"
+  },
+  "homepage": "https://github.com/william-lokl/lokl_backend_v2#readme",
+  "dependencies": {
+    "@google-cloud/bigquery": "^6.2.0",
+    "@types/node": "^20.1.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-useragent": "^1.0.15",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typeorm": "^0.3.16",
+    "typescript": "^5.0.4"
+  }
+}
